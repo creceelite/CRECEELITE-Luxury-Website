@@ -108,27 +108,36 @@ export function Footer() {
               </div>
             </form>
 
-            <div className="flex gap-6">
+            <p className="font-montserrat text-sm text-mutedGray tracking-wide mb-4">
+              Follow CreceElite
+            </p>
+            <div className="flex items-center justify-center md:justify-start gap-6">
               <a
-                href="#"
+                href="https://instagram.com/creceelite"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-mutedGray hover:text-gold transition-colors duration-300"
                 aria-label="Instagram">
                 
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-6 h-6" />
               </a>
               <a
-                href="#"
-                className="text-mutedGray hover:text-gold transition-colors duration-300"
-                aria-label="YouTube">
-                
-                <Youtube className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
+                href="https://facebook.com/creceelite"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-mutedGray hover:text-gold transition-colors duration-300"
                 aria-label="Facebook">
                 
-                <Facebook className="w-5 h-5" />
+                <Facebook className="w-6 h-6" />
+              </a>
+              <a
+                href="https://youtube.com/@creceelite"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-mutedGray hover:text-gold transition-colors duration-300"
+                aria-label="YouTube">
+                
+                <Youtube className="w-6 h-6" />
               </a>
             </div>
           </div>
