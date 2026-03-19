@@ -87,11 +87,11 @@ export function BookSection() {
             <div className="relative w-56 h-72 md:w-80 md:h-[28rem] bg-zinc-900 border border-white/10 shadow-2xl shadow-gold/5 flex flex-col items-center justify-center p-6 md:p-8 transform-none lg:transform lg:rotate-y-[-15deg] lg:rotate-x-[5deg] hover:rotate-y-0 hover:rotate-x-0 transition-transform duration-700 ease-out mx-auto lg:mx-0">
               <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none" />
               <div className="w-8 h-[1px] bg-gold mb-6" />
-              <h4 className="font-montserrat font-bold text-3xl text-warmWhite tracking-widest text-center mb-4">
+              <h4 className="font-montserrat text-warmWhite tracking-widest text-center mb-4 text-[24px] font-[700]">
                 CRECEELITE
               </h4>
               <p className="font-montserrat text-xs text-goldLight tracking-widest uppercase text-center">
-                Los 5 Pilares
+                Los 5 Pilares de una vida con propósito
               </p>
               <div className="mt-auto w-full border-t border-white/10 pt-4 text-center">
                 <span className="font-montserrat text-[10px] text-mutedGray tracking-widest uppercase">

@@ -51,11 +51,11 @@ export function WeeklyGuides() {
           className="text-center mb-10 md:mb-24">
           
           <h2 className="font-montserrat font-bold text-2xl md:text-5xl text-warmWhite mb-6">
-            Guías semanales CRECEELITE
+            CRECEELITE
           </h2>
           <p className="font-montserrat text-mutedGray text-base md:text-lg max-w-2xl mx-auto font-light">
-            Guías prácticas semanales para fortalecer los cinco pilares y
-            mantener el momentum de tu transformación.
+            Un enfoque integral estructurado en fases que desarrollan cada área
+            clave de tu vida.
           </p>
         </motion.div>
 
@@ -85,7 +85,7 @@ export function WeeklyGuides() {
               <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gold/0 to-transparent group-hover:via-gold/50 transition-all duration-700" />
 
               <span className="font-montserrat font-bold text-gold text-2xl mb-6 block">
-                Semana {guide.num}
+                Fase {guide.num}
               </span>
               <h3 className="font-montserrat text-xl text-warmWhite mb-4 font-medium">
                 {guide.title}
